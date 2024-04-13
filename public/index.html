@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo LLC</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0€</div>
+                </div>
+                <button type="button" class="btn-buy">Pay Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <div class="shop-content">
+
+
+            <div class="product-box">
+                <img src="https://cdn02.plentymarkets.com/mgt7h3rmbzvp/item/images/1199394101/full/1199394101-Takis-Volcano--scharfe-Chips--100g-Beutel_1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Takis Volcano</h2>
+                <span class="price">€6.99</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="https://mexicomagico.de/cdn/shop/products/Takis_Fuego_22692.png?v=1696526461" alt="" class="product-img">
+                <h2 class="product-title">Takis Fuego</h2>
+                <span class="price">€6.99</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+
+            <div class="product-box">
+                <img src="https://my-sweet-usa.de/cdn/shop/files/3904.jpg?v=1702994042" alt="" class="product-img">
+                <h2 class="product-title">Takis Blue Heat</h2>
+                <span class="price">Not available</span>
+                <!--  <i class='bx bx-shopping-bag add-cart' ></i>   SOLD OUT-->
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
